@@ -1,0 +1,17 @@
+#matchTable{
+	
+	margin: auto;
+font-family: Impact; 
+color: white;
+font-size:72px;
+width:80%;
+padding-bottom: 100px;
+-webkit-text-stroke: 3px black; /* width and color */
+
+}
+
+#matchTable, td{
+	
+padding-bottom: 200px;
+
+}
