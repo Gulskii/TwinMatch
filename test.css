@@ -1,6 +1,6 @@
 #matchTable{
 	
-	margin: auto;
+margin: auto;
 font-family: Impact; 
 color: white;
 font-size:72px;
@@ -13,5 +13,6 @@ padding-bottom: 100px;
 #matchTable, td{
 	
 padding-bottom: 200px;
+text-align: center;
 
 }

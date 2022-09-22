@@ -1,4 +1,4 @@
-var times = ["10 mins", "10 mins", "10 mins", "10 mins", "30 mins", "30 mins", "30 mins", "1 hour", "2 hours", "3 hours", "4 hours"]
+var times = ["10 Min.", "15 Min.", "20 Min.", "30 Min.", "45 Min.", "1 Hour", "2 Hours", "3 Hours", "4 Hours"]
 
 var numOfRows = 2;
 var numOfColumns = 5;
@@ -22,12 +22,26 @@ function generateTimeArray(){
 	var count = 0;
 	while(count < iterate)
 	{
-		var chosenTime = times[randNumb(0, times.length)];
-		matchTimes.push(chosenTime);
-		matchTimes.push(chosenTime);
+		generateNewTime();
+		
+		
 		count++;
 	}
 	matchTimes = shuffle(matchTimes);
+}
+
+function generateNewTime(){
+	var newTime = false;
+	while(!newTime)
+	{
+	var chosenTime = times[randNumb(0, times.length)];
+	
+		if(!matchTimes.includes(chosenTime)){
+			matchTimes.push(chosenTime);
+			matchTimes.push(chosenTime);
+			newTime = true;
+		}		
+	}
 }
 
 function shuffle(array) {
@@ -49,7 +63,6 @@ function shuffle(array) {
 }
 
 function generateTable(){
-	
 	
 	generateTimeArray();
 	
