@@ -1,4 +1,4 @@
-var times = ["10 Min.", "15 Min.", "20 Min.", "30 Min.", "45 Min.", "1 Hour", "2 Hours", "3 Hours", "4 Hours", "8 Hours"]
+var times = ["10 Min.", "15 Min.", "20 Min.", "30 Min.", "45 Min.", "1 Hour", "2 Hours", "3 Hours", "4 Hours"]
 
 var numOfRows = 2;
 var numOfColumns = 5;
