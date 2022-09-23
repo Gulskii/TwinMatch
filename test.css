@@ -3,15 +3,19 @@
 margin: auto;
 font-family: Impact; 
 color: white;
-font-size:72px;
-width:90%;
+font-size:70px;
 -webkit-text-stroke: 3px black; /* width and color */
-
+border: black, 2px;
+margin-left: 110px;
+width: 1720px;
+table-layout: fixed;
 }
 
 #matchTable, td{
-	
-padding-bottom: 320px;
+
+margin-right: 5px;
+
 text-align: center;
+padding-bottom: 345px;
 
 }
